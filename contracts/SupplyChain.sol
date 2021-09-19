@@ -145,7 +145,6 @@ contract SupplyChain {
         // 3. Emit the appropriate event
         // 4. return true
         // hint:
-        require(_price > 100, "price test");
         items[skuCount] = Item({
             name: _name,
             sku: skuCount,
